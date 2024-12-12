@@ -1,0 +1,93 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://aelmasry2000.github.io/AIIIF/images/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "All images loaded in aelmasry2000/AIIIF project"
+        ]
+    },
+    "items": [
+        {
+            "id": "https://aelmasry2000.github.io/AIIIF/images/458546004_1273828023780244_7261744542945414301_n/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "458546004_1273828023780244_7261744542945414301_n"
+                ]
+            },
+            "height": 1522,
+            "width": 1033,
+            "items": [
+                {
+                    "id": "https://aelmasry2000.github.io/AIIIF/images/458546004_1273828023780244_7261744542945414301_n/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://aelmasry2000.github.io/AIIIF/images/458546004_1273828023780244_7261744542945414301_n/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://aelmasry2000.github.io/AIIIF/images/458546004_1273828023780244_7261744542945414301_n/full/full/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 33,
+                                                "height": 48
+                                            },
+                                            {
+                                                "width": 65,
+                                                "height": 96
+                                            },
+                                            {
+                                                "width": 130,
+                                                "height": 191
+                                            },
+                                            {
+                                                "width": 259,
+                                                "height": 381
+                                            },
+                                            {
+                                                "width": 517,
+                                                "height": 761
+                                            },
+                                            {
+                                                "width": 1033,
+                                                "height": 1522
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 1033,
+                                        "@id": "https://aelmasry2000.github.io/AIIIF/images/458546004_1273828023780244_7261744542945414301_n",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 1522,
+                                        "@type": "ImageService2"
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://aelmasry2000.github.io/AIIIF/images/458546004_1273828023780244_7261744542945414301_n/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
